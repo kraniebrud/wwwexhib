@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html charset>
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,8 @@
 			font-size: 16px;
 			color: #000;
 			background: #000;
+		}
+		body {
 			overflow-x: scroll;
 			overflow-y: hidden;
 			height: 100vh;
@@ -31,7 +33,8 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			border: 5px solid #000;
+			border: 14px solid #000;
+			border-left: 7px solid #000;
 			box-sizing: border-box;
 			text-align: center;
 			font-size: 4rem;
@@ -52,30 +55,33 @@
 	</style>
 </head>
 <body>
-	<ul>
-		<li>2024</li>
-		<li>
-			<a href="images/paintings/20240804_134941.jpg" target="_blank">
-				<img src="images/paintings/20240804_134941.jpg" width="90%">
-			</a>
-		</li>
-		<li>
-			<a href="images/paintings/20240806_124455.jpg" target="_blank">
-				<img src="images/paintings/20240806_124455.jpg" width="90%">
-			</a>
-		</li>
-		<li>
-			<a href="images/paintings/20240806_124508.jpg" target="_blank">
-				<img src="images/paintings/20240806_124508.jpg" width="90%">
-			</a>
-		</li>
-		<li>
-			<a href="images/paintings/20240705_224821.jpg" target="_blank">
-				<img src="images/paintings/20240705_224821.jpg" width="90%">
-			</a>
-		</li>
-		<li>End</li>
-	</ul>
+	<!-- <div> -->
+		<!-- <h2>My paintings</h2> -->
+		<ul>
+			<li>2024</li>
+			<li>
+				<a href="images/paintings/20240804_134941.jpg" target="_blank">
+					<img src="images/paintings/20240804_134941.jpg" width="90%">
+				</a>
+			</li>
+			<li>
+				<a href="images/paintings/20240806_124455.jpg" target="_blank">
+					<img src="images/paintings/20240806_124455.jpg" width="90%">
+				</a>
+			</li>
+			<li>
+				<a href="images/paintings/20240806_124508.jpg" target="_blank">
+					<img src="images/paintings/20240806_124508.jpg" width="90%">
+				</a>
+			</li>
+			<li>
+				<a href="images/paintings/20240705_224821.jpg" target="_blank">
+					<img src="images/paintings/20240705_224821.jpg" width="90%">
+				</a>
+			</li>
+			<li>End</li>
+		</ul>
+	<!-- </div> -->
 	<script>
 		window.addEventListener('wheel', function(e) {
 			if (e.deltaY !== 0) {
