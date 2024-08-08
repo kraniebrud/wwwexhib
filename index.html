@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,32 +35,51 @@
 			height: 100vh;
 		}
 		ul li {
-			background: #FFF;
 			flex: 0 0 100vw;
 			display: flex;
-			align-items: center;
 			justify-content: center;
 			border: 14px solid #000;
-			/* border-right: 7px solid #000;
-			border-left: 7px solid #000; */
 			box-sizing: border-box;
 			text-align: center;
 			font-size: 4rem;
+			align-items: stretch;
+		}
+		ul li a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 		ul li:first-child {
-			/* border-radius: 50% 0 0 50%; */
 			border-left: 88px solid #000;
-			/* border-right: 14px solid #000; */ */
+			background: #000;
+			align-items: center;
 		}
 		ul li:last-child {
-			/* border-radius: 0 50% 50% 0; */
 			border-right: 88px solid #000;
+			background: #000;
+			align-items: center;
 		}
 		ul li img {
 			max-width: 100%;
 			max-height: 100%;
 			object-fit: contain;
-			box-shadow: 0 0 80px rgba(0, 0, 0, 0.8);
+			box-shadow: 0 0 33px rgba(255, 255, 255, 0.8);
+		}
+		ul li div {
+			text-align: left;
+    	padding: 2rem;
+			background: #000;
+			color: #FFF;
+		}
+
+		/* media query width 900px + */
+		@media (min-width: 900px) {
+			ul li {
+				font-size: 8rem;
+			}
+			ul li img {
+				box-shadow: 0 0 80px rgba(255, 255, 255, 0.8);
+			}
 		}
 	</style>
 </head>
@@ -67,8 +87,8 @@
 	<ul id="scroll-zone">
 		<li>
 			<div style="text-align: left;">
-				<p>Hello 👋,</p>
-				<p><small>Scroll to navigate!!!</small></p>
+				<p>Hi 👋<span class="show-touch">,</span></p>
+				<p class="show-touch"><small>Go this way ⇝</small></p>
 			</div>
 		</li>
 		<li>
@@ -93,29 +113,10 @@
 		</li>
 		<li>
 			<div style="text-align: left;">
-				<p>Bye 👋,</p>
-				<p><small>Come again soon!!!</small></p>
+				<p>Hi 👋<span class="show-touch">,</span></p>
+				<p class="show-touch"><small>Go this way ⇜</small></p>
 			</div>
 		</li>
 	</ul>
-	<script>
-		const bodyEl = document.querySelector('body');
-		const scrollZoneEl = document.querySelector('#scroll-zone');
-
-		window.addEventListener('wheel', function(e) {
-			// fix wheel for pc (mobile etc will need the original overflowY "hidden", to fix its layout)
-			bodyEl.style.overflowY = 'initial';
-			scrollZoneEl.style.overflowY = 'initial';
-
-			if (e.deltaY !== 0) {
-				// prevent default vertical scrolling
-				e.preventDefault();
-				// scroll horizontally instead
-				window.scrollBy({
-					left: e.deltaY,
-				});
-			}
-		}, { passive: false });
-	</script>
 </body>
 </html>
