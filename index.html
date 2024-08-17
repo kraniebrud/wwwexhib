@@ -17,11 +17,13 @@
 		}
 		body {
 			overflow-x: scroll;
-			overflow-y: hidden;
-			height: 100vh;
 			display: flex;
 			align-items: center;
 			justify-content: center;
+		}
+		html, body, ul {
+			overflow-y: hidden;
+			height: 100dvh;
 		}
 		html, body, ul, li {
 			margin: 0;
@@ -29,7 +31,6 @@
 			box-sizing: border-box;
 		}
 		ul {
-			overflow-y: hidden;
 			display: flex;
 			height: 100vh;
 		}
@@ -72,11 +73,14 @@
 			color: #FFF;
 		} */
 
-		/* media query width 900px + */
+		/* media query width 900px +, larger devices */
 		@media (min-width: 900px) {
 			/* ul li {
 				font-size: 8rem;
 			} */
+			ul li .arrow {
+				font-size: 12rem;
+			}
 			ul li img {
 				box-shadow: 0 0 80px rgba(255, 255, 255, 0.8);
 			}
@@ -103,7 +107,7 @@
 		}
 
 		ul li .arrow {
-			font-size: 12rem;
+			font-size: 8rem;
 			width: 80%;
 			max-width: 1200px;
 			/* animation: y 2s infinite alternate; */
