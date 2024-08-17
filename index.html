@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,6 +42,7 @@
 			text-align: center;
 			font-size: 4rem;
 			align-items: stretch;
+			color: #FFF;
 		}
 		ul li a {
 			display: flex;
@@ -65,31 +65,74 @@
 			object-fit: contain;
 			box-shadow: 0 0 33px rgba(255, 255, 255, 0.8);
 		}
-		ul li div {
+		/* ul li div {
 			text-align: left;
     	padding: 2rem;
 			background: #000;
 			color: #FFF;
-		}
+		} */
 
 		/* media query width 900px + */
 		@media (min-width: 900px) {
-			ul li {
+			/* ul li {
 				font-size: 8rem;
-			}
+			} */
 			ul li img {
 				box-shadow: 0 0 80px rgba(255, 255, 255, 0.8);
 			}
+		}
+
+		/* ..... */
+		@keyframes arrow-right {
+			from {
+				text-align: center;
+			}
+			to {
+				text-align: right;
+				text-shadow: #FFF 0 0 33px;
+			}
+		}
+		@keyframes arrow-left {
+			from {
+				text-align: center;
+			}
+			to {
+				text-align: left;
+				text-shadow: #FFF 0 0 33px;
+			}
+		}
+
+		ul li .arrow {
+			font-size: 12rem;
+			width: 80%;
+			max-width: 1200px;
+			/* animation: y 2s infinite alternate; */
+		}
+		/* ul li:first-child {
+			justify-content: right;
+			padding-right: 2rem;
+		} */
+		ul li:first-child .arrow {
+			animation: arrow-right 2s infinite alternate;
+		}
+		ul li:last-child .arrow {
+			animation: arrow-left 2s infinite alternate;
 		}
 	</style>
 </head>
 <body>
 	<ul id="scroll-zone">
 		<li>
-			<div style="text-align: left;">
-				<p>Hi 👋<span class="show-touch">,</span></p>
-				<p class="show-touch"><small>Go this way ⇝</small></p>
+			<div class="arrow">
+				⇝
+				<!-- <p>Hi 👋,</p>
+				<p><small>Go this way ⇝</small></p> -->
 			</div>
+		</li>
+		<li>
+			<a href="images/paintings/20240817_034443.jpg" target="_blank">
+				<img src="images/paintings/20240817_034443.jpg" width="90%">
+			</a>
 		</li>
 		<li>
 			<a href="images/paintings/20240804_134941.jpg" target="_blank">
@@ -112,9 +155,10 @@
 			</a>
 		</li>
 		<li>
-			<div style="text-align: left;">
-				<p>Hi 👋<span class="show-touch">,</span></p>
-				<p class="show-touch"><small>Go this way ⇜</small></p>
+			<div class="arrow">
+				⇜
+				<!-- <p>Hi 👋,</p>
+				<p><small>Go this way ⇜</small></p> -->
 			</div>
 		</li>
 	</ul>
