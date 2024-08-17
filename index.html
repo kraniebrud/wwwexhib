@@ -24,6 +24,8 @@
 		html, body, ul {
 			overflow-y: hidden;
 			height: 100dvh;
+			/* fix (atlest from a quick test on my comp) prevent history back on scroll horizontal left with trackpad... */
+			overscroll-behavior-x: none;
 		}
 		html, body, ul, li {
 			margin: 0;
