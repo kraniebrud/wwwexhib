@@ -1,18 +1,24 @@
 
- ▄▀▀▀▀▄      ▄▀▀█▄   ▄▀▀▀▀▄  ▄▀▀▀▀▄  ▄▀▀█▄▄▄▄              ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄ 
-█    █      ▐ ▄▀ ▀▄ █ █   ▐ █ █   ▐ ▐  ▄▀   ▐             ▐ ▄▀   █ █   █    █ 
-▐    █        █▄▄▄█    ▀▄      ▀▄     █▄▄▄▄▄                █▄▄▄▀  ▐  █    █  
-    █        ▄▀   █ ▀▄   █  ▀▄   █    █    ▌                █   █     █   ▄▀  
-  ▄▀▄▄▄▄▄▄▀ █   ▄▀   █▀▀▀    █▀▀▀    ▄▀▄▄▄▄                ▄▀▄▄▄▀ ▄    ▀▄▀ ▄  
-  █         ▐   ▐    ▐       ▐       █    ▐               █    ▐              
-  ▐                                  ▐                    ▐                  
+ ▄▀▀▀▀▄     ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄ 
+█    █     ▐ ▄▀   █ █   █    █ 
+▐    █       █▄▄▄▀  ▐  █    █  
+    █        █   █     █   ▄▀  
+  ▄▀▄▄▄▄▄▄▀ ▄▀▄▄▄▀      ▀▄▀ ▄  
+  █        █    ▐              
 
 
 
-Title:              Er du døv, vi spiller røv.
-Dimensions:         -CM x -CM
-Surface:            Wood
-Materials:          Acrylic, Solid acrylic markers, Ink, Crayons, Shoe polishing wax
+Title:
+Er du døv, vi spiller røv.
+
+Dimension:
+-CM x -CM
+
+Surface:
+Wood
+
+Material:
+Acrylic, Solid acrylic markers, Ink, Crayons, Shoe polishing wax
 
 
 

@@ -1,18 +1,24 @@
 
- ▄▀▀▀▀▄      ▄▀▀█▄   ▄▀▀▀▀▄  ▄▀▀▀▀▄  ▄▀▀█▄▄▄▄              ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄ 
-█    █      ▐ ▄▀ ▀▄ █ █   ▐ █ █   ▐ ▐  ▄▀   ▐             ▐ ▄▀   █ █   █    █ 
-▐    █        █▄▄▄█    ▀▄      ▀▄     █▄▄▄▄▄                █▄▄▄▀  ▐  █    █  
-    █        ▄▀   █ ▀▄   █  ▀▄   █    █    ▌                █   █     █   ▄▀  
-  ▄▀▄▄▄▄▄▄▀ █   ▄▀   █▀▀▀    █▀▀▀    ▄▀▄▄▄▄                ▄▀▄▄▄▀ ▄    ▀▄▀ ▄  
-  █         ▐   ▐    ▐       ▐       █    ▐               █    ▐              
-  ▐                                  ▐                    ▐                  
+ ▄▀▀▀▀▄     ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄ 
+█    █     ▐ ▄▀   █ █   █    █ 
+▐    █       █▄▄▄▀  ▐  █    █  
+    █        █   █     █   ▄▀  
+  ▄▀▄▄▄▄▄▄▀ ▄▀▄▄▄▀      ▀▄▀ ▄  
+  █        █    ▐              
 
 
 
-Title:              Fristelse og besparelser.
-Dimensions:         -CM x -CM
-Surface:            Wood
-Materials:          Acrylic, Solid acrylic markers, Ink, Crayons, Shoe polishing wax
+Title:
+Fristelse og besparelser.
+
+Dimension:
+-CM x -CM
+
+Surface:
+Wood
+
+Material
+Acrylic, Solid acrylic markers, Ink, Crayons, Shoe polishing wax
 
 
 

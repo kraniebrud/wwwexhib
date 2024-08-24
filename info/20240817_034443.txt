@@ -1,18 +1,24 @@
 
- ▄▀▀▀▀▄      ▄▀▀█▄   ▄▀▀▀▀▄  ▄▀▀▀▀▄  ▄▀▀█▄▄▄▄              ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄ 
-█    █      ▐ ▄▀ ▀▄ █ █   ▐ █ █   ▐ ▐  ▄▀   ▐             ▐ ▄▀   █ █   █    █ 
-▐    █        █▄▄▄█    ▀▄      ▀▄     █▄▄▄▄▄                █▄▄▄▀  ▐  █    █  
-    █        ▄▀   █ ▀▄   █  ▀▄   █    █    ▌                █   █     █   ▄▀  
-  ▄▀▄▄▄▄▄▄▀ █   ▄▀   █▀▀▀    █▀▀▀    ▄▀▄▄▄▄                ▄▀▄▄▄▀ ▄    ▀▄▀ ▄  
-  █         ▐   ▐    ▐       ▐       █    ▐               █    ▐              
-  ▐                                  ▐                    ▐                  
+ ▄▀▀▀▀▄     ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄ 
+█    █     ▐ ▄▀   █ █   █    █ 
+▐    █       █▄▄▄▀  ▐  █    █  
+    █        █   █     █   ▄▀  
+  ▄▀▄▄▄▄▄▄▀ ▄▀▄▄▄▀      ▀▄▀ ▄  
+  █        █    ▐              
 
 
 
-Title:              HEJ!! - Alt fedt?
-Dimensions:         -CM x -CM
-Surface:            Pizza sign (plastic, aluminium frame)
-Materials:          Acrylic, Solid acrylic markers, Ink, Crayons, Shoe polishing wax
+Title:
+HEJ!! - Alt fedt?
+
+Dimension:
+-CM x -CM
+
+Surface:
+Pizza sign (plastic, aluminium frame)
+
+Material:
+Acrylic, Solid acrylic markers, Ink, Crayons, Shoe polishing wax
 
 
 

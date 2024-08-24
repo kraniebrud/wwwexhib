@@ -1,18 +1,24 @@
 
- ▄▀▀▀▀▄      ▄▀▀█▄   ▄▀▀▀▀▄  ▄▀▀▀▀▄  ▄▀▀█▄▄▄▄              ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄ 
-█    █      ▐ ▄▀ ▀▄ █ █   ▐ █ █   ▐ ▐  ▄▀   ▐             ▐ ▄▀   █ █   █    █ 
-▐    █        █▄▄▄█    ▀▄      ▀▄     █▄▄▄▄▄                █▄▄▄▀  ▐  █    █  
-    █        ▄▀   █ ▀▄   █  ▀▄   █    █    ▌                █   █     █   ▄▀  
-  ▄▀▄▄▄▄▄▄▀ █   ▄▀   █▀▀▀    █▀▀▀    ▄▀▄▄▄▄                ▄▀▄▄▄▀ ▄    ▀▄▀ ▄  
-  █         ▐   ▐    ▐       ▐       █    ▐               █    ▐              
-  ▐                                  ▐                    ▐                  
+ ▄▀▀▀▀▄     ▄▀▀█▄▄   ▄▀▀▄ ▄▀▀▄ 
+█    █     ▐ ▄▀   █ █   █    █ 
+▐    █       █▄▄▄▀  ▐  █    █  
+    █        █   █     █   ▄▀  
+  ▄▀▄▄▄▄▄▄▀ ▄▀▄▄▄▀      ▀▄▀ ▄  
+  █        █    ▐              
 
 
 
-Title:              En hængt høne kan også lægge æg.
-Dimensions:         -CM x -CM
-Surface:            Wood
-Materials:          Acrylic, Solid acrylic markers, Ink, Crayons, Shoe polishing wax
+Title:
+En hængt høne kan også lægge æg.
+
+Dimension:
+-CM x -CM
+
+Surface:
+Wood
+
+Material:
+Acrylic, Solid acrylic markers, Ink, Crayons, Shoe polishing wax
 
 
 
