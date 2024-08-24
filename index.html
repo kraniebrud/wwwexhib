@@ -46,6 +46,7 @@
 			font-size: 4rem;
 			align-items: stretch;
 			color: #FFF;
+			/* box-shadow: inset 0 0 55rem rgba(162, 161, 161, 0.8); */
 		}
 		ul li a {
 			display: flex;
@@ -83,12 +84,12 @@
 			ul li .arrow {
 				font-size: 12rem;
 			}
-			ul li img {
+			/* ul li img {
 				box-shadow: 0 0 80px rgba(255, 255, 255, 0.8);
-			}
+			} */
 		}
 
-		/* ..... */
+		/* arrow (first, last) */
 		@keyframes arrow-right {
 			from {
 				text-align: center;
@@ -108,6 +109,10 @@
 			}
 		}
 
+		ul li:first-child, ul li:last-child {
+			box-shadow: none;
+		}
+
 		ul li .arrow {
 			font-size: 8rem;
 			width: 80%;
@@ -119,11 +124,57 @@
 			padding-right: 2rem;
 		} */
 		ul li:first-child .arrow {
-			animation: arrow-right 2s infinite alternate;
+			animation: arrow-right 1.5s infinite alternate;
 		}
 		ul li:last-child .arrow {
-			animation: arrow-left 2s infinite alternate;
+			animation: arrow-left 1.5s infinite alternate;
 		}
+
+		/* info */
+		ul li {
+			position: relative;
+			padding-top: 1.5rem;
+			border-radius: 100%;
+		}
+		ul li .info-wrapper {
+			margin-top: .1rem;
+			position: absolute;
+			left: 0;
+			width: 100%;
+			font-size: 1.1rem;
+			top: 0;
+			text-align: center;
+		}
+		ul li .info {
+			position: relative;
+		}
+		ul li .info .details {
+			position: absolute;
+			margin-left: 1rem;
+			background: transparent;
+			border: none;
+			color: #FFF;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: .88rem;
+			cursor: pointer;
+			display: inline-block;
+			line-height: 1.33;
+			text-decoration: none;
+			border-bottom: 1px solid blue;
+		}
+		/* ul li .details {
+			position: absolute;
+			top: 0;
+			right: 3rem;
+		} */
+		/* ul li .info .num {
+			text-align: left;
+			padding-left: 1rem;
+		}
+		ul li .info .details {
+			text-align: right;
+			padding-right: 1rem;
+		} */
 	</style>
 </head>
 <body>
@@ -136,26 +187,67 @@
 			</div>
 		</li>
 		<li>
+			<div class="info-wrapper">
+				<div class="info">
+					<small>Er du døv, vi spiller røv.</small>
+					<a href="info/20240824_105640.txt" class="details" target="_blank">ℹ️</button>
+				</div>
+			</div>
+			<a href="images/paintings/20240824_105640.jpg" target="_blank">
+				<img src="images/paintings/20240824_105640.jpg" width="90%">
+			</a>
+		</li>
+		<li>
+			<div class="info-wrapper">
+				<div class="info">
+					<small>HEJ!! - Alt fedt?</small>
+					<a href="info/20240817_034443.txt" class="details" target="_blank">ℹ️</button>
+				</div>
+			</div>
 			<a href="images/paintings/20240817_034443.jpg" target="_blank">
 				<img src="images/paintings/20240817_034443.jpg" width="90%">
 			</a>
 		</li>
 		<li>
+			<div class="info-wrapper">
+				<div class="info">
+					<small>Fristelse og besparelser.</small>
+					<a href="info/20240804_134941.txt" class="details" target="_blank">ℹ️</button>
+				</div>
+			</div>
 			<a href="images/paintings/20240804_134941.jpg" target="_blank">
 				<img src="images/paintings/20240804_134941.jpg" width="90%">
 			</a>
 		</li>
 		<li>
+			<div class="info-wrapper">
+				<div class="info">
+					<small>Cheese the moment.</small>
+					<a href="info/20240806_124455.txt" class="details" target="_blank">ℹ️</button>
+				</div>
+			</div>
 			<a href="images/paintings/20240806_124455.jpg" target="_blank">
 				<img src="images/paintings/20240806_124455.jpg" width="90%">
 			</a>
 		</li>
 		<li>
+			<div class="info-wrapper">
+				<div class="info">
+					<small>En hængt høne kan også lægge æg.</small>
+					<a href="info/20240806_124508.txt" class="details" target="_blank">ℹ️</button>
+				</div>
+			</div>
 			<a href="images/paintings/20240806_124508.jpg" target="_blank">
 				<img src="images/paintings/20240806_124508.jpg" width="90%">
 			</a>
 		</li>
 		<li>
+			<div class="info-wrapper">
+				<div class="info">
+					<small>1 på månen og 2 til tuden.</small>
+					<a href="info/20240705_224821.txt" class="details" target="_blank">ℹ️</button>
+				</div>
+			</div>
 			<a href="images/paintings/20240705_224821.jpg" target="_blank">
 				<img src="images/paintings/20240705_224821.jpg" width="90%">
 			</a>
