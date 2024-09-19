@@ -7,7 +7,6 @@
 	<!-- no follow, just for now. not sure about the actual content as is. just a showcase to drop to whatever -->
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
 	<title>www internet</title>
 	<style>
 		html, body {
@@ -247,59 +246,5 @@
 			</div>
 		</li>
 	</ul>
-
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-			const scrollZone = document.getElementById('scroll-zone');
-			let startX, startScrollLeft;
-			let isDown = false;
-
-			// Helper function to handle both mouse and touch events
-			function unify(e) {
-				return e.changedTouches ? e.changedTouches[0] : e;
-			}
-
-			// Start scrolling
-			scrollZone.addEventListener('mousedown', handleDragStart);
-			scrollZone.addEventListener('touchstart', handleDragStart);
-
-			// Stop scrolling
-			scrollZone.addEventListener('mouseup', handleDragEnd);
-			scrollZone.addEventListener('mouseleave', handleDragEnd);
-			scrollZone.addEventListener('touchend', handleDragEnd);
-
-			// Scrolling
-			scrollZone.addEventListener('mousemove', handleDrag);
-			scrollZone.addEventListener('touchmove', handleDrag);
-
-			function handleDragStart(e) {
-				isDown = true;
-				startX = unify(e).pageX - scrollZone.offsetLeft;
-				startScrollLeft = scrollZone.scrollLeft;
-				scrollZone.style.cursor = 'grabbing';
-				scrollZone.style.userSelect = 'none';
-				e.preventDefault();
-			}
-
-			function handleDragEnd() {
-				isDown = false;
-				scrollZone.style.cursor = 'grab';
-				scrollZone.style.removeProperty('user-select');
-			}
-
-			function handleDrag(e) {
-				if (!isDown) return;
-				const x = unify(e).pageX - scrollZone.offsetLeft;
-				const walk = (x - startX) * 2; // Scroll speed multiplier
-				scrollZone.scrollLeft = startScrollLeft - walk;
-			}
-
-			// Wheel event for desktop
-			scrollZone.addEventListener('wheel', function(e) {
-				e.preventDefault();
-				scrollZone.scrollLeft += e.deltaY;
-			});
-		});
-	</script>
 </body>
 </html>
